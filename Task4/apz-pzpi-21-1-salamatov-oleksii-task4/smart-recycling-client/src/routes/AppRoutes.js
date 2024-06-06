@@ -4,7 +4,6 @@ import LogIn from "../pages/LogIn";
 import ToggleElement from "../components/test";
 import Profile from "../pages/Profile";
 import Data from "../pages/Data";
-import Reports from "../pages/Reports";
 import CollectionPoints from "../pages/CollectionPoints";
 import PointDetails from "../pages/PointDetails";
 
@@ -32,10 +31,6 @@ const AppRoutes = [
   {
     path: '/data',
     element: <Data />
-  },
-  {
-    path: '/reports',
-    element: <Reports />
   },
   {
     path: '/collectionPoints',
